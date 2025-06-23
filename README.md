@@ -9,11 +9,11 @@ This is a self-developed banking application based on **Microservices architectu
 
 ## 🚀 Modules
 
-- **Accounts Service** – Manages customer accounts and basic information.
+- **Accounts Service** – Manages customer accounts and basic information.(http://localhost:8080/actuator/info)
 - **Loans Service** – Handles loan details for users.
 - **Cards Service** – Manages card data including limits and history.
-- **Eureka Server** – Enables service discovery and registration.
-- **API Gateway** – Acts as the single entry point to all backend services.
+- **Eureka Server** – Enables service discovery and registration. (http://localhost:8070/)
+- **API Gateway** – Acts as the single entry point to all backend services. (http://localhost:8072/actuator/gateway/routes)
 - **Config Server** – Centralized configuration management using Spring Cloud Config.
   
 ---
